@@ -1,0 +1,23 @@
+{
+  "name": "settings-bill-expressjs",
+  "version": "1.0.0",
+  "description": "Starting point for the Settings Bill [screencast series](https://www.youtube.com/watch?v=G5PmuyjVCrc&list=PLVcT2txrixoW7aLtSAp-FK7VMl_1OgM1h).",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "moment": "^2.29.4"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
