@@ -4,7 +4,8 @@
   "description": "Starting point for the Settings Bill [screencast series](https://www.youtube.com/watch?v=G5PmuyjVCrc&list=PLVcT2txrixoW7aLtSAp-FK7VMl_1OgM1h).",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
